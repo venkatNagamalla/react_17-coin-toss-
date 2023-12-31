@@ -1,0 +1,91 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background: linear-gradient(to left, #e2a139, #f9d423);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  height: 75%;
+  width: 55%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 25%;
+  }
+}
+
+.coin-heading {
+  font-size: 25px;
+  font-weight: 500;
+  color: #a35200;
+}
+
+.description {
+  color: #334155;
+  font-size: 13px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.coin-img {
+  width: 45%;
+  margin-top: 10px;
+}
+
+.toss-btn {
+  background-color: #f9d423;
+  opacity: 0.8;
+  color: #a35200;
+  border: none;
+  height: 25px;
+  width: 65px;
+  font-size: 11px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.list-container {
+  list-style: none;
+  width: 60%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.list-element {
+  color: #475569;
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+  .list-container {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+  }
+}
